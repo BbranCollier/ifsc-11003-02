@@ -9,6 +9,13 @@ html {
 }
  
  
+/* ---------------Responsive Images----------------- */
+img{
+    max-width:100%;
+}
+
+
+
 /* Skip link utility: hidden until focused */
 .visually-hidden {
   border: 0;
@@ -85,6 +92,53 @@ nav.primary ul a:hover{
     background-color: rgba(0,0,0,.8);
 }
 
+#content h2{
+color: #3b6383;
+border-bottom: 1px dotted #ccc;
+}
+
+#content p{
+line-height: 2;
+}
+
+#blog{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    flex-wrap:wrap;
+    gap:20px;
+}
+
+#blog figure{
+    margin:0;
+}
+
+#blog .post{
+    box-shadow: 0 4px 8px rgba(0,0,0,.6);
+    padding: 10px;
+    font-size: .8rem;
+    flex:1;
+}
+
+#blog h2{
+  flex: 0 0 100%;
+}
+
+#blog time.post-date, #blog figcaption{
+    text-transform: uppercase;
+    font-size: .7rem;
+}
+
+#blog a
+
+
+
+
+
+
+
+
+
 
 /*-------------Media Queries--------------*/
 
@@ -95,6 +149,8 @@ nav.primary ul {
     gap:10px;
 }
 
-
+#blog {
+  flex-direction:column;
+}
 
 }
