@@ -168,6 +168,36 @@ line-height: 2;
   padding:5px 0 5px 10px;
 }
 
+#practice table{
+  color:rgb(7, 233, 94);
+  background-color: #172635;
+  padding-bottom:40px;
+  margin-bottom:40px;
+  border-bottom: 4px double #ccc;
+  margin-top:40px;
+  border-top: 4px double #ccc;
+}
+
+#practice ol{
+  padding-left:20px;
+  margin-bottom:40px;
+  margin-top:40px;
+  border-top: 4px double #ccc;
+  border: 2px solid rgb(62, 202, 156);
+}
+#practice ul{
+  padding-left:20px;
+  margin-bottom:40px;
+  margin-top:40px;
+  border: 2px solid rgb(62, 202, 156);
+}
+
+#practice dl{
+  padding-left:20px;
+  margin-bottom:40px;
+  margin-top:40px;
+  border: 2px solid rgb(62, 202, 156);
+}
 #practice a:link, #practice a:visited {
   color:rgb(62, 202, 156);
 }
