@@ -179,6 +179,8 @@ line-height: 2;
 }
 
 #practice ol{
+  color:rgb(7, 233, 94);
+  background-color: #172635;
   padding-left:20px;
   margin-bottom:40px;
   margin-top:40px;
@@ -186,6 +188,8 @@ line-height: 2;
   border: 2px solid rgb(62, 202, 156);
 }
 #practice ul{
+  color:rgb(7, 233, 94);
+  background-color: #172635;
   padding-left:20px;
   margin-bottom:40px;
   margin-top:40px;
@@ -193,6 +197,8 @@ line-height: 2;
 }
 
 #practice dl{
+  color:rgb(7, 233, 94);
+  background-color: #172635;
   padding-left:20px;
   margin-bottom:40px;
   margin-top:40px;
