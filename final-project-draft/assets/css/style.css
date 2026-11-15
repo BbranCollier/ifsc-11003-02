@@ -1,0 +1,71 @@
+body {
+    background-color:rgb(1, 1, 54);
+}
+
+body{
+    color:white
+}
+h2{
+    font-size: 2.6rem;
+}
+h3{
+    font-size: 2.1rem;
+}
+p{
+    font-size: 1.3rem;
+}
+article{
+    display:flow-root;
+    margin-bottom: 30px;
+    border-bottom: 4px double #ccc;
+}
+article img{
+  float: right;
+    width: 300px;
+    margin-left: 20px;
+}
+
+header.primary{
+    background-image:
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(https://images.openai.com/static-rsc-4/vZYZ4YRvYTOn1P8cy2dSddqvCfuAKC94RvT9xLYnwlA-ead6MoyGf6TJCZmBfMEfsl-31VM96UxKWbWdpsrGOrD86RTKbGh5llyLRfj4rvwd3X11_67G2EODrbSoVJa1zL2EAooGOtyfFF7RI5YLdAHqSu64gJn__arNb5BEUAgy6wg_IJgck94zYxbCciku?purpose=fullsize);
+     background-size: cover;
+    background-position: center;
+    width: 100%;
+    min-height: 250px;
+    text-align: center;
+    padding: 30px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+}
+
+nav a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 180px;
+    height: 50px;
+
+    background-color: #222222;
+    color: white;
+    text-decoration: none;
+
+    border: 2px solid white;
+    border-radius: 8px;
+}
+
+nav a:hover {
+    background-color: #0066ff;
+    color: white;
+}
+
+main{
+    
+}
