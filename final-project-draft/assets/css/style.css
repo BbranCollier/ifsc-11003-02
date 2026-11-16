@@ -7,9 +7,13 @@ body{
 }
 h2{
     font-size: 2.6rem;
+    border-left:7.5px solid rgb(48, 167, 237);
+    padding:5px 0 5px 10px;
 }
 h3{
     font-size: 2.1rem;
+    border-left:7.5px solid rgb(63, 240, 190);
+    padding:5px 0 5px 10px;
 }
 p{
     font-size: 1.3rem;
@@ -68,4 +72,51 @@ nav a:hover {
 
 main{
     
+}
+
+caption {
+    font-size: 22px;
+    padding: 10px;
+    color: white;
+}
+table{
+ color:white;
+  background-color: #172635;
+  padding-bottom:40px;
+  margin-bottom:40px;
+  border-bottom: 4px double #ccc;
+  margin-top:40px;
+  border-top: 4px double #ccc;
+  width:100%;
+  border-collapse: collapse;
+}
+
+td {
+    background-color: #182a38;
+    color: white;
+    padding: 12px;
+    border: 1px solid white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer.primary{
+background-color:rgb(6, 55, 128);
+padding:5px;
+color:#ffffff;
+text-align:center;
+text-shadow:2px 2px #000000; 
 }
