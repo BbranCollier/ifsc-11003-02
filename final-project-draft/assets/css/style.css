@@ -13,6 +13,10 @@ h2{
     border-left:7.5px solid rgb(48, 167, 237);
     padding:5px 0 5px 10px;
 }
+#more-popular-games{
+    text-align: center;
+    border-left: none;
+}
 h3{
     font-size: 2.1rem;
     border-left:7.5px solid rgb(63, 240, 190);
